@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="TestSuite" time="33.605" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="TestSuite" time="28.063" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
@@ -13,7 +13,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="test" value="tests.AmazonEmptyCartTest"/>
+    <property name="test" value="tests.AmazonSignInTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\b\Documents\NetBeansProjects\test\Amazon"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
@@ -21,7 +21,7 @@
     <property name="basedir" value="C:\Users\b\Documents\NetBeansProjects\test\Amazon"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\b\Documents\NetBeansProjects\test\Amazon\target\surefire\surefirebooter1498983405632609453.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\b\Documents\NetBeansProjects\test\Amazon\target\surefire\surefirebooter469997403335662259.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\b\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
-    <property name="sun.java.command" value="C:\Users\b\Documents\NetBeansProjects\test\Amazon\target\surefire\surefirebooter1498983405632609453.jar C:\Users\b\Documents\NetBeansProjects\test\Amazon\target\surefire\surefire309675476413765799tmp C:\Users\b\Documents\NetBeansProjects\test\Amazon\target\surefire\surefire1164852880332862058tmp"/>
+    <property name="sun.java.command" value="C:\Users\b\Documents\NetBeansProjects\test\Amazon\target\surefire\surefirebooter469997403335662259.jar C:\Users\b\Documents\NetBeansProjects\test\Amazon\target\surefire\surefire8834281934351812387tmp C:\Users\b\Documents\NetBeansProjects\test\Amazon\target\surefire\surefire6969498704589537788tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,21 +64,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="tests.AmazonEmptyCartTest" name="testHomeButton" time="14.116">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at pages.AmazonEmptyCart.amazonTestDeleteCart(AmazonEmptyCart.java:37)
-	at tests.AmazonEmptyCartTest.testHomeButton(AmazonEmptyCartTest.java:22)
-</failure>
-    <system-out>@HL
-@HL-------------------------------------------------------
-@HL T E S T S
-@HL-------------------------------------------------------
-@SLRunning TestSuite
-</system-out>
-    <system-err>Dec 28, 2018 7:16:53 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Dec 28, 2018 7:16:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-</system-err>
-  </testcase>
+  <testcase classname="tests.AmazonSignInTest" name="AmazonSignInTest" time="11.762"/>
+  <testcase classname="tests.AmazonSignInTest" name="AmazonSignOutTest" time="0.062"/>
 </testsuite>

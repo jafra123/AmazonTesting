@@ -26,12 +26,12 @@ public class AmazonTest {
     Amazon amazon;
 
     AmazonAccountandLists amazonAccountandLists;
-    @Test(priority = 1)
-    public void testHomeButton() {
-        amazon = new Amazon(driver);
-        amazon.amazonTest();
+  //  @Test(priority = 1)
+    //public void testHomeButton() {
+      //  amazon = new Amazon(driver);
+      //  amazon.amazonTest();
        
-    }         
+  //  }         
    
     @Test(priority = 0)
     public void testsearchDropDownList() throws InterruptedException {

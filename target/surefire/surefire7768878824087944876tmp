@@ -1,0 +1,8 @@
+#surefire
+#Fri Dec 28 19:03:34 CST 2018
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.2\\java\\maven-nblib\\netbeans-eventspy.jar
+user.dir=C\:\\Users\\b\\Documents\\NetBeansProjects\\test\\Amazon
+file.encoding=UTF-8
+localRepository=C\:\\Users\\b\\.m2\\repository
+basedir=C\:\\Users\\b\\Documents\\NetBeansProjects\\test\\Amazon
+test=tests.AmazonTest

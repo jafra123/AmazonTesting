@@ -1,0 +1,31 @@
+ //Start list here 
+        List <WebElement> radios=driver.findElements(By.name("outFlight"));
+        radios.get(3).click(); // this will click on the second radio button    
+      // End of List program here 
+//          //RETURN
+        System.out.println("Ready to click radio button Return");
+
+
+
+
+//============
+Browsing History:
+nav-a 
+nav-recently-viewed
+
+CSS= a#nav-recently-viewed
+
+Amazon.com top menu bar 
+//span[@class='nav-shortened-name' ]
+
+//i[@class='a-icon a-icon-next']        click on the next 
+//i[@class='a-icon a-icon-previous']      clisk on previouuis
+
+
+<a href="/year-end-deals/b/?ie=UTF8&amp;node=7756008011&amp;ref=nav_cs_gb" class="nav-a" tabindex="49">Year-End Deals</a>
+
+
+Englis/ spanish
+a#icp-nav-flyout
+
+<a href="#switch-lang=es_US" class="nav-link                                    nav-item">                          <span class="nav-text"><i class="icp-radio"></i>Español - ES</span>                          </a>

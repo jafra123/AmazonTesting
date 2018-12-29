@@ -45,7 +45,7 @@ public class DriverUtils {
         driver=new InternetExplorerDriver();
         return driver;
     }
-/*
+
 
     public static WebDriver getChromeRemoteDriver(){
         WebDriver driver=null;
@@ -54,7 +54,7 @@ public class DriverUtils {
             driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
         } catch (MalformedURLException ex) {
             //Logger.getLogger(GridTest.class.getName()).log(Level.SEVERE, null, ex);
-            Logger.getLogger(LoginTest.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(AmazonTest.class.getName()).log(Level.SEVERE, null, ex);
         }
         //baseUrl="http://newtours.demoaut.com";
         return driver;
@@ -66,7 +66,7 @@ public class DriverUtils {
         try {
             driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
         } catch (MalformedURLException ex) {
-            Logger.getLogger(LoginTest.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(AmazonTest.class.getName()).log(Level.SEVERE, null, ex);
         }
         //baseUrl="http://newtours.demoaut.com";
         return driver;
@@ -77,10 +77,10 @@ public class DriverUtils {
         try {
             driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
         } catch (MalformedURLException ex) {
-            Logger.getLogger(LoginTest.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(AmazonTest.class.getName()).log(Level.SEVERE, null, ex);
         }
         //baseUrl="http://newtours.demoaut.com";
         return driver;
-    }  */
+    }  
       
 }

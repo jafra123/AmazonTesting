@@ -18,8 +18,8 @@ public class AmazonMakeCopy {
 
     @Test(priority =0)
     public void AmazonSignOutTest (){
-        AmazonSignOut amazonSignOut = new AmazonSignOut(driver);
-        amazonSignOut.AmazonSignOut();
+      //  AmazonSignOut amazonSignOut = new AmazonSignOut(driver);
+       // amazonSignOut.AmazonSignOut();
      
     }
     
@@ -46,8 +46,8 @@ public class AmazonMakeCopy {
 
     @BeforeClass // i added these codes because i find ut tht way so that i can run all the tests
     public void setup() {
-       driver = DriverUtils.getChromeDriver();
-     // driver = DriverUtils.getChromeRemoteDriver();
+      // driver = DriverUtils.getChromeDriver();
+      driver = DriverUtils.getChromeRemoteDriver();
        //driver = DriverUtils.getFirefoxRemoteDriver();
      // driver = DriverUtils.getIERemoteDriver();
         driver.get("https://www.amazon.com");
